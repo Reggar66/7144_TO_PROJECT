@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_7144_C_advanced_payment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1877026-b625-4913-ad79-636957d72ace</testCaseGuid>
+   <variable>
+      <defaultValue>'Jan Kowalski'</defaultValue>
+      <description></description>
+      <id>003eb603-743d-4515-93ce-a85171be08c0</id>
+      <masked>false</masked>
+      <name>odbiorca</name>
+   </variable>
+   <variable>
+      <defaultValue>'77 6666 5555 4444 3333 2222 1111'</defaultValue>
+      <description></description>
+      <id>704547c6-4328-4ce3-9911-a40c6045c446</id>
+      <masked>false</masked>
+      <name>rachunek</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nibylandia'</defaultValue>
+      <description></description>
+      <id>e64dc548-285e-491e-9cde-29e70712d151</id>
+      <masked>false</masked>
+      <name>adres</name>
+   </variable>
+   <variable>
+      <defaultValue>'123'</defaultValue>
+      <description></description>
+      <id>bbccc311-a040-40a4-bd0b-9b0c8cd2cdb2</id>
+      <masked>false</masked>
+      <name>kwota</name>
+   </variable>
+   <variable>
+      <defaultValue>'To jest przelew'</defaultValue>
+      <description></description>
+      <id>37f3e1ed-0820-4d17-8ed1-46a672435d60</id>
+      <masked>false</masked>
+      <name>tytul</name>
+   </variable>
+   <variable>
+      <defaultValue>'mail@mail.pl'</defaultValue>
+      <description></description>
+      <id>9db2c09c-92ae-48bd-b4d1-a48db3cda7d7</id>
+      <masked>false</masked>
+      <name>mail</name>
+   </variable>
+</TestCaseEntity>

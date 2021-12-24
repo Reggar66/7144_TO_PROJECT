@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_7144_B_payment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>58e4f8fd-8dff-420e-b76b-61feee06b29f</testCaseGuid>
+   <variable>
+      <defaultValue>'Przelew wykonany! Michael Scott - 7500,00PLN - Paper please'</defaultValue>
+      <description></description>
+      <id>36b070b4-dd26-49e1-8291-a9a5a0882567</id>
+      <masked>false</masked>
+      <name>sucessPayment</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_7144_A</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>9494dd70-501f-4e9d-830b-c0338b9ae646</testSuiteGuid>
+   <testCaseLink>
+      <guid>18468b84-62ca-4a8b-a5c9-ef4a45e94760</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DEMOBANK/TC_7144_A_login_and_assert</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ece8cdf3-07a9-4498-9789-820f69ccf28c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DEMOBANK/TC_7144_B_payment</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>36b070b4-dd26-49e1-8291-a9a5a0882567</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>104a7146-6a77-4567-949b-2d18bde6050e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DEMOBANK/TC_7144_C_advanced_payment</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9b8081b7-ad33-49a9-8381-3a36116e0203</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TD_7144</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>9b8081b7-ad33-49a9-8381-3a36116e0203</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>odbiorca</value>
+         <variableId>003eb603-743d-4515-93ce-a85171be08c0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9b8081b7-ad33-49a9-8381-3a36116e0203</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>rachunek</value>
+         <variableId>704547c6-4328-4ce3-9911-a40c6045c446</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9b8081b7-ad33-49a9-8381-3a36116e0203</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>adres</value>
+         <variableId>e64dc548-285e-491e-9cde-29e70712d151</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9b8081b7-ad33-49a9-8381-3a36116e0203</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>kwota</value>
+         <variableId>bbccc311-a040-40a4-bd0b-9b0c8cd2cdb2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9b8081b7-ad33-49a9-8381-3a36116e0203</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>tytul</value>
+         <variableId>37f3e1ed-0820-4d17-8ed1-46a672435d60</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9b8081b7-ad33-49a9-8381-3a36116e0203</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>mail</value>
+         <variableId>9db2c09c-92ae-48bd-b4d1-a48db3cda7d7</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
